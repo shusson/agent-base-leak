@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test-leaks": "jest --config=jest.json --detectLeaks"
+    "test-leaks": "jest --config=jest.json --detectLeaks",
+    "test-heap": "jest --config=jest-heap.json --logHeapUsage --runInBand"
   },
   "name": "winston-leak",
   "version": "1.0.0",

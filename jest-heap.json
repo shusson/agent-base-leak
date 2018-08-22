@@ -3,7 +3,7 @@
     "transform": {
         "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": ".(test|spec).(ts)$",
-    "testPathIgnorePatterns": ["/node_modules/", "/heap-tests/", "/yarn-cache/"],
+    "testRegex": ".(test|spec).*$",
+    "testPathIgnorePatterns": ["/node_modules/", "/tests/", "/yarn-cache/"],
     "testEnvironment": "node"
 }
