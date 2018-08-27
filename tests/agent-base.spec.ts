@@ -1,7 +1,7 @@
-import Agent from "agent-base";
+import agent from "agent-base";
 
 describe("agent base", () => {
     it(`should not leak`, async () => {
-        expect(Agent).toBeTruthy();
+        expect(agent).toBeTruthy();
     });
 });
